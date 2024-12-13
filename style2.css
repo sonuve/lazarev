@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "averta cy w10";
+}
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    background-color: #fff;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.nav img {
+    width: 120px;
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.50vw;
+    font-weight: 500;
+}
+
+.nav i {
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.homepage {
+    width: 100%;
+    padding: 15vw 15vw;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: Monospace;
+}
+
+.heading h1 {
+    padding-top: 10px;
+    font-size: 6vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: transparent;
+    -webkit-text-stroke: 0.80px #000;
+}
+.homepage .heading h1:hover{
+    color: #000;
+}
+
+.homeend {
+    padding: 5vw 15vw;
+}
+
+.homeend p {
+    width: 70%;
+    letter-spacing: -.03vw;
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+.homeend p::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+.featured {
+    padding: 10vw 15vw;
+}
+
+.fheading h1 {
+    font-size: 4.50vw;
+    font-size: 200;
+}
+
+.fheading h1:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.scroleimgae {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    height: 100vh;
+    /* border: 2px solid black; */
+
+}
+
+.sleft {
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid blue; */
+}
+
+.leftele {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.leftele h1 {
+    margin: 1.5vw 0;
+    font-size: 3vw;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.leftele h4 {
+    margin-top: 10px;
+    opacity: 0.50;
+}
+
+.leftele h2 {
+    font-size: 2.30vw;
+    font-weight: 200;
+}
+
+.sright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid green; */
+}
+
+.rightimg {
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn button {
+    font-size: 1.15vw;
+    font-weight: 800;
+    height: 40px;
+    width: 130px;
+    border-radius: 15px;
+    border: 1px solid rgb(231, 209, 209);
+    background-color: #fff;
+}
+
+.dev {
+    width: 100%;
+    padding: 10vw 6vw;
+}
+
+.dev h1 {
+    width: 40%;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.dev p {
+    letter-spacing: 1px;
+    width: 33%;
+    margin-top: 10px;
+    font-size: 1.20vw;
+    font-weight: 500;
+}
+
+.slides{
+    padding: 3vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.slide{
+    width: 30%;
+   
+}
+.slide .img{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.slide .img img{
+    width: 100%;
+    height: 270px;
+}
+.slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding:10px  22px;
+    margin: 20px 0;
+    background-color: aliceblue;
+    font-size: 1.30vw;
+    font-weight: 300;
+}
+.slide h3{
+    font-size: 1.80vw;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.dev2{
+    width: 100%;
+    padding: 8vw 5vw;
+}
+.dev2 h1{
+    width: 25%;
+    font-size: 4.50vw;
+    font-weight:400 ;
+}
+.sec_sliders{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vw  5vw;
+}
+.sec_slide{
+    width: 30%;
+    height: 100%;
+    margin: 0 20px;
+    /* background-color: green; */
+}
+.sec_slide .sec_img{
+    width: 100%;
+    height: 270px;
+    /* background-color: red; */
+}
+.sec_slide .sec_img img{
+    width: 100%;
+    height: 260px;
+
+}
+.sec_slide h1{
+    width: fit-content;
+    border-radius: 100px;
+    padding:10px  22px;
+    margin: 30px 0;
+    background-color: rgb(194, 220, 243);
+    font-size: 1.30vw;
+    font-weight: 300;
+}
+.sec_slide i{
+    padding: 0 5px;
+}
+.footer{
+    height: 100%;
+    width: 100%;
+    padding: 5vw 5vw;
+    background-color: #000;
+}
+.footer h1{
+    /* width: fit-content; */
+    font-size: 3.50vw;
+    /* background-color: green; */
+    color: white;
+
+}
+.footer h3{
+    font-size: 1.40vw;
+    font-weight: 400;
+    margin-top: 15px;
+    color: white;
+}
+.fsection{
+    padding: 7vw 3vw;
+
+}
+.finf{
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 0.2px solid whitesmoke;
+    /* border-top: 0.2px solid whitesmoke; */
+   
+
+}
+.finf h1{
+    cursor: pointer;
+    margin: 3vw 0;
+    color: white;
+    font-size: 4vw;
+    font-weight: 800;
+    padding-left: 1.60vw;
+    
+}
+.containt{
+    padding: 2vw 7vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.filed{
+    display: flex;
+    gap: 20px;
+}
+.filed p{
+    color: white;
+    font-size: 1.30vw;
+    font-weight: 500;
+}
+.filed h1{
+    width: 70%;
+    font-size: 1.80vw;
+    font-weight: 200;
+}
+.cont_info{
+    padding: 10vw 7vw;
+    display: flex;
+    justify-content: space-around;
+}
+.number button{
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 1.50vw;
+    border-radius: 50px;
+    border: 1px solid white;
+    
+}
+.number button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s 
+}
